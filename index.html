@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft Surface - Landing Page</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        .hero-banner {
+            background-color: #f2f2f2;
+            min-height: 480px;
+        }
+        .card-img-top {
+            height: 220px;
+            object-fit: cover;
+        }
+        .cta-section {
+            background: linear-gradient(135deg, #0d6efd, #004085);
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#">
+                <span class="text-primary fs-4">❖</span> Microsoft Surface
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#surfaceNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="surfaceNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="#">Trang chủ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Thiết bị</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#business">Doanh nghiệp</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#accessories">Phụ kiện</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#support">Hỗ trợ</a></li>
+                </ul>
+                <div class="d-flex align-items-center gap-3">
+                    <a href="#" class="text-dark text-decoration-none"><i class="bi bi-search"></i></a>
+                    <a href="#" class="text-dark text-decoration-none"><i class="bi bi-cart3"></i></a>
+                    <a href="#" class="btn btn-outline-primary btn-sm rounded-pill px-3">Đăng nhập</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. Hero Section (Banner chính) -->
+    <section class="hero-banner d-flex align-items-center py-5">
+        <div class="container">
+            <div class="row align-items-center gy-4">
+                <div class="col-lg-6">
+                    <span class="badge bg-primary mb-2 px-3 py-2">Mới ra mắt</span>
+                    <h1 class="display-4 fw-bold text-dark">Surface Pro 11th Edition</h1>
+                    <p class="lead text-secondary my-3">Sức mạnh AI vượt trội cùng màn hình OLED sắc nét, thiết kế 2-trong-1 linh hoạt bậc nhất cho công việc và sáng tạo.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#products" class="btn btn-primary btn-lg rounded-pill px-4">Mua ngay</a>
+                        <a href="#" class="btn btn-outline-secondary btn-lg rounded-pill px-4">Tìm hiểu thêm</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800&auto=format&fit=crop&q=80" alt="Surface Pro" class="img-fluid rounded-4 shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Featured Categories / Quick Links -->
+    <section class="py-5 bg-white">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-6 col-md-3">
+                    <div class="p-3 border rounded-3 hover-shadow">
+                        <i class="bi bi-laptop fs-1 text-primary"></i>
+                        <h6 class="mt-2 fw-semibold">Máy tính xách tay</h6>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="p-3 border rounded-3 hover-shadow">
+                        <i class="bi bi-tablet-landscape fs-1 text-primary"></i>
+                        <h6 class="mt-2 fw-semibold">Thiết bị 2-trong-1</h6>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="p-3 border rounded-3 hover-shadow">
+                        <i class="bi bi-briefcase fs-1 text-primary"></i>
+                        <h6 class="mt-2 fw-semibold">Dành cho Doanh nghiệp</h6>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="p-3 border rounded-3 hover-shadow">
+                        <i class="bi bi-keyboard fs-1 text-primary"></i>
+                        <h6 class="mt-2 fw-semibold">Phụ kiện Surface</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Product Grid -->
+    <section class="py-5 bg-light" id="products">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Khám phá dòng sản phẩm Surface</h2>
+                <p class="text-muted">Chọn thiết bị hoàn hảo đáp ứng phong cách làm việc và sáng tạo của bạn</p>
+            </div>
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500&auto=format&fit=crop&q=80" class="card-img-top" alt="Surface Laptop">
+                        <div class="card-body d-flex flex-column">
+                            <span class="badge bg-secondary w-auto mb-2 align-self-start">Siêu mỏng nhẹ</span>
+                            <h5 class="card-title fw-bold">Surface Laptop 7</h5>
+                            <p class="card-text text-muted flex-grow-1">Hiệu năng vi xử lý Snapdragon X Series cùng thời lượng pin lên đến 20 giờ.</p>
+                            <div class="mt-3">
+                                <span class="fw-bold fs-5 text-primary">Từ 27.990.000đ</span>
+                                <a href="#" class="btn btn-outline-primary w-100 mt-2">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&auto=format&fit=crop&q=80" class="card-img-top" alt="Surface Pro">
+                        <div class="card-body d-flex flex-column">
+                            <span class="badge bg-primary w-auto mb-2 align-self-start">Bán chạy nhất</span>
+                            <h5 class="card-title fw-bold">Surface Pro 11</h5>
+                            <p class="card-text text-muted flex-grow-1">Đa nhiệm thần tốc, tích hợp bút Surface Slim Pen thế hệ mới mượt mà.</p>
+                            <div class="mt-3">
+                                <span class="fw-bold fs-5 text-primary">Từ 29.490.000đ</span>
+                                <a href="#" class="btn btn-outline-primary w-100 mt-2">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=500&auto=format&fit=crop&q=80" class="card-img-top" alt="Surface Studio">
+                        <div class="card-body d-flex flex-column">
+                            <span class="badge bg-dark w-auto mb-2 align-self-start">Đồ họa đỉnh cao</span>
+                            <h5 class="card-title fw-bold">Surface Laptop Studio 2</h5>
+                            <p class="card-text text-muted flex-grow-1">Đồ họa NVIDIA RTX mạnh mẽ, bản lề gập 3 chế độ chuyên dụng cho render 3D.</p>
+                            <div class="mt-3">
+                                <span class="fw-bold fs-5 text-primary">Từ 54.990.000đ</span>
+                                <a href="#" class="btn btn-outline-primary w-100 mt-2">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500&auto=format&fit=crop&q=80" class="card-img-top" alt="Surface Go">
+                        <div class="card-body d-flex flex-column">
+                            <span class="badge bg-info text-dark w-auto mb-2 align-self-start">Học tập & Di động</span>
+                            <h5 class="card-title fw-bold">Surface Go 4</h5>
+                            <p class="card-text text-muted flex-grow-1">Kích thước 10.5 inch nhỏ gọn mang theo bất cứ đâu, tối ưu cho học sinh sinh viên.</p>
+                            <div class="mt-3">
+                                <span class="fw-bold fs-5 text-primary">Từ 14.290.000đ</span>
+                                <a href="#" class="btn btn-outline-primary w-100 mt-2">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Call to Action Banner -->
+    <section class="cta-section py-5 text-center" id="business">
+        <div class="container py-4">
+            <h2 class="fw-bold mb-3">Tăng tốc vận hành doanh nghiệp cùng Surface Pro & Copilot</h2>
+            <p class="lead mb-4 mx-auto" style="max-width: 700px;">Bảo mật cấp doanh nghiệp từ chip đến đám mây cùng hiệu suất AI giúp đội ngũ bứt phá năng suất.</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="#" class="btn btn-light btn-lg rounded-pill px-4 text-primary fw-semibold">Liên hệ tư vấn</a>
+                <a href="#" class="btn btn-outline-light btn-lg rounded-pill px-4">Dùng thử miễn phí</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Footer -->
+    <footer class="bg-dark text-secondary py-5" id="support">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <h6 class="text-white fw-bold mb-3">Sản phẩm nổi bật</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-secondary text-decoration-none py-1 d-block">Surface Pro</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none py-1 d-block">Surface Laptop</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none py-1 d-block">Surface Laptop Studio</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none py-1 d-block">Phụ kiện chính hãng</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="text-white fw-bold mb-3">Microsoft Store</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-secondary text-decoration-none py-1 d-block">Hồ sơ tài khoản</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none py-1 d-block">Trung tâm tải xuống</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none py-1 d-block">Chính sách trả hàng</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none py-1 d-block">Theo dõi đơn hàng</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="text-white fw-bold mb-3">Doanh nghiệp</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-secondary text-decoration-none py-1 d-block">Microsoft Cloud</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none py-1 d-block">Bảo mật Microsoft</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none py-1 d-block">Azure AI Solution</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none py-1 d-block">Surface for Business</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="text-white fw-bold mb-3">Hỗ trợ khách hàng</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-secondary text-decoration-none py-1 d-block">Trung tâm trợ giúp</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none py-1 d-block">Bảo hành và sửa chữa</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none py-1 d-block">Cộng đồng Microsoft</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none py-1 d-block">Hotline: 1800-6035</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="border-secondary my-4">
+            <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center">
+                <p class="mb-0 small">&copy; 2026 Microsoft Corporation. Bản quyền thuộc về Microsoft.</p>
+                <div class="d-flex gap-3 small mt-2 mt-sm-0">
+                    <a href="#" class="text-secondary text-decoration-none">Quyền riêng tư</a>
+                    <a href="#" class="text-secondary text-decoration-none">Điều khoản sử dụng</a>
+                    <a href="#" class="text-secondary text-decoration-none">Nhãn hiệu</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
